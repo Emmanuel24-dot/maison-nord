@@ -1,0 +1,27 @@
+
+# --- ajouté automatiquement (sauvegarde GitHub) ---
+.env
+.env.*
+!.env.example
+node_modules/
+vendor/
+target/
+*.zip
+*.rar
+*.7z
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+.dart_tool/
+build/
+
+
+# Secrets et fichiers locaux
+includes/*.local.php
+.claude/settings.local.json
